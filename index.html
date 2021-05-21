@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navegacion por pestañas</title>
+
+	<link rel="stylesheet" href="./estilos.css">
+	<script src="./script.js" defer></script>
+</head>
+<body>
+
+	<div class="menu">
+		<p data-target="#inicio">Inicio</p>
+		<p data-target="#productos">Productos</p>
+		<p data-target="#contacto">Contacto</p>
+	</div>
+
+	<div class="content">
+
+		<div data-content id="inicio" class="active">
+			<h1>Inicio</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis architecto aperiam accusamus vitae possimus. Atque quam quibusdam nobis perferendis voluptate harum, sed aliquam illo! Suscipit!
+			</p>
+		</div>
+
+		<div data-content id="productos">
+			<h1>Productos</h1>
+		</div>
+
+		<div data-content id="contacto">
+			<h1>Contacto</h1>
+		</div>
+
+	</div>
+
+</body>
+</html>
